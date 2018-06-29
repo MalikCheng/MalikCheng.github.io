@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-29T07:42:03.081Z</updated>
+  <updated>2018-06-29T10:24:03.920Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>new article</title>
+    <link href="http://yoursite.com/2018/06/29/new-article/"/>
+    <id>http://yoursite.com/2018/06/29/new-article/</id>
+    <published>2018-06-29T10:23:19.000Z</published>
+    <updated>2018-06-29T10:24:03.920Z</updated>
+    
+    <content type="html"><![CDATA[<hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;hr&gt;
+
+      
+    
+    </summary>
+    
+      <category term="分类1" scheme="http://yoursite.com/categories/%E5%88%86%E7%B1%BB1/"/>
+    
+    
+      <category term="tag1" scheme="http://yoursite.com/tags/tag1/"/>
+    
+      <category term="tag2" scheme="http://yoursite.com/tags/tag2/"/>
+    
+  </entry>
   
   <entry>
     <title>hello,Hexo!</title>
@@ -38,16 +66,22 @@
   </entry>
   
   <entry>
-    <title>posthello,Hexo!</title>
-    <link href="http://yoursite.com/2018/06/28/posthello-Hexo/"/>
-    <id>http://yoursite.com/2018/06/28/posthello-Hexo/</id>
+    <title>Test!</title>
+    <link href="http://yoursite.com/2018/06/28/testarticle/"/>
+    <id>http://yoursite.com/2018/06/28/testarticle/</id>
     <published>2018-06-28T01:47:00.000Z</published>
-    <updated>2018-06-28T01:47:00.221Z</updated>
+    <updated>2018-06-29T10:24:17.447Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="分类1" scheme="http://yoursite.com/categories/%E5%88%86%E7%B1%BB1/"/>
+    
+    
+      <category term="tag1" scheme="http://yoursite.com/tags/tag1/"/>
+    
+      <category term="tag2" scheme="http://yoursite.com/tags/tag2/"/>
     
   </entry>
   
