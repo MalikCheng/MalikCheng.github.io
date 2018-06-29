@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="">
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -74,18 +74,23 @@
 
 
 
+  <link rel="alternate" href="/atom.xml" title="Malik|个人博客" type="application/atom+xml" />
 
 
 
 
 
+
+<meta name="description" content="网站描述">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="Malik|个人博客">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="default">
+<meta property="og:site_name" content="Malik|个人博客">
+<meta property="og:description" content="网站描述">
+<meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Malik|个人博客">
+<meta name="twitter:description" content="网站描述">
 
 
 
@@ -93,7 +98,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Pisces',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -101,7 +106,7 @@
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -121,7 +126,7 @@
 
 
 
-  <title>Hexo</title>
+  <title>Malik|个人博客</title>
   
 
 
@@ -133,7 +138,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -143,7 +148,7 @@
   <div class="container sidebar-position-left 
   page-home">
     <div class="headband"></div>
-
+<a href="https://github.com/MalikCheng" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
@@ -152,12 +157,12 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">Malik|个人博客</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">网站副标题</p>
       
   </div>
 
@@ -182,7 +187,37 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Home
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -192,7 +227,37 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archives
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
           </a>
         </li>
       
@@ -232,13 +297,13 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/28/hello-Hexo/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
+      <meta itemprop="name" content="Malik">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/myavatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="Malik|个人博客">
     </span>
 
     
@@ -258,9 +323,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-06-28T09:49:09+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-28T09:49:09+08:00">
                 2018-06-28
               </time>
             
@@ -300,49 +365,24 @@
       
         
           
-            <div class="post"><br>        <h1 class="postTitle"><br>            <a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/fengxiongZz/p/7707219.html" target="_blank" rel="noopener">使用Hexo+Github一步步搭建属于自己的博客（基础）</a><br>        </h1><br>        <div class="clear"></div><br>        <div class="postBody"><br>            <div id="cnblogs_post_body" class="blogpost-body"><p>前言：电脑系统为window 10专业版，64位</p><br><p>&nbsp;</p><br><p><strong>相关步骤：</strong></p><br><p>1、安装Node.js和配置好Node.js环境，打开cmd命令行，成功界面如下</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021222335756-1508643846.png" alt=""></p><br><p>&nbsp;</p><br><p>&nbsp;2、安装Git和配置好Git环境，安装成功的象征就是在电脑上任何位置<strong>鼠标右键</strong>能够出现如下两个选择</p><br><p>&nbsp;<img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021222542474-1351750125.png" alt=""></p><br><p>注意：一般出于安全考虑，只有在Git Bash Here中才能进行Git的相关操作。如果需要在cmd命令行里调用Git，那么就要配置电脑的环境变量Path，或者在安装的时候选择use Git from the Windows Command Prompt。这个可有可无，影响不大，成功配置的界面如图</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021223101193-1524328031.png" alt=""></p><br><p>&nbsp;</p><br><p>&nbsp;3、Github账户注册和新建项目，项目必须要遵守格式：账户名.github.io，不然接下来会有很多麻烦。并且需要勾选Initialize this repository with a README</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021223639881-1998790649.png" alt=""></p><br><p>&nbsp;</p><br><p>在建好的项目右侧有个settings按钮，点击它，向下拉到GitHub Pages，你会看到那边有个网址，访问它，你将会惊奇的发现该项目已经被部署到网络上，能够通过外网来访问它。&nbsp;</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021223928802-1978574025.png" alt=""></p><br><p>&nbsp;</p><br><p>&nbsp;4、安装Hexo，在自己认为合适的地方创个文件夹，我是在D盘建了一个blog文件夹。然后通过命令行进入到该文件夹里面</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021224442443-1196707159.png" alt=""></p><br><p>&nbsp;</p><br><p>输入npm install hexo -g，开始安装Hexo</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021224910568-2096615217.png" alt=""></p><br><p>&nbsp;</p><br><p>输入hexo -v，检查hexo是否安装成功</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021225015224-1426206003.png" alt=""></p><br><p>&nbsp;</p><br><p>输入hexo init，初始化该文件夹（有点漫长的等待。。。）</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021230203912-509196411.png" alt=""></p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021230241646-1660449756.png" alt=""></p><br><p>看到后面的“Start blogging with Hexo！”，激动有木有！！！！！</p><br><p>&nbsp;</p><br><p>输入npm install，安装所需要的组件</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021231521646-1099473727.png" alt=""></p><br><p>&nbsp;</p><br><p>输入hexo g，首次体验Hexo</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021231705474-1404994153.png" alt=""></p><br><p>&nbsp;</p><br><p>&nbsp;输入hexo s，开启服务器，访问该网址，正式体验Hexo</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021231833912-663774637.png" alt=""></p><br><p>问题：假如页面一直无法跳转，那么可能端口被占用了。此时我们ctrl+c停止服务器，接着输入“hexo server -p 端口号”来改变端口号</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021232311912-1198771378.png" alt=""></p><br><p>那么出现如下图就成功了</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021232413224-1288183746.png" alt=""></p><br><p>&nbsp;</p><br><p>&nbsp;</p><br><p>&nbsp;5、将Hexo与Github page联系起来，设置Git的user name和email（如果是第一次的话）</p><br><p>&nbsp;<img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021233157224-1386748377.png" alt=""></p><br><p>上图是在其文件夹里面鼠标右键，点击Git Base Here。这里“feng”可以替换成自己的用户名，邮箱可以替换成自己的邮箱</p><br><p>&nbsp;</p><br><p>输入cd ~/.ssh，检查是否由.ssh的文件夹</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021233543052-76995831.png" alt=""></p><br><p>&nbsp;</p><br><p>输入ls，列出该文件下的内容。下图说明存在</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021233630568-279882178.png" alt=""></p><br><p>&nbsp;</p><br><p>&nbsp;输入ssh-keygen -t rsa -C “<a href="mailto:929762930@qq.com" target="_blank" rel="noopener">929762930@qq.com</a>”，连续三个回车，生成密钥，最后得到了两个文件：id_rsa和id_rsa.pub（默认存储路径是：C:<span class="hljs-command">\Users<span class="hljs-command">\Administrator<span class="hljs-command">.ssh）</span></span></span>。</p><br><p>&nbsp;<img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021234107209-1205335399.png" alt=""></p><br><p>&nbsp;</p><br><p>&nbsp;输入eval “$(ssh-agent -s)”，添加密钥到ssh-agent</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021234314146-695835137.png" alt=""></p><br><p>&nbsp;</p><br><p>&nbsp;再输入ssh-add ~/.ssh/id_rsa，添加生成的SSH key到ssh-agent</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021234528552-610835964.png" alt=""></p><br><p>&nbsp;</p><br><p>&nbsp;登录Github，点击头像下的settings，添加ssh</p><br><p>&nbsp;<img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021234636834-426105098.png" alt=""></p><br><p>&nbsp;</p><br><p>新建一个new ssh key，将id_rsa.pub文件里的内容复制上去</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021234906724-1938556332.png" alt=""></p><br><p>&nbsp;</p><br><p>输入ssh -T <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>，测试添加ssh是否成功。如果看到Hi后面是你的用户名，就说明成功了</p><br><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021235116271-1521882533.png" alt=""></p><br><p><span style="color: #993300"><strong>问题：</strong></span>假如ssh-key配置失败，那么只要以下步骤就能完全解决</p><br><div><br><div><br><p>首先，清除所有的key-pair<br>ssh-add -D<br>rm -r ~/.ssh<br>删除你在github中的public-key</p><br><p>重新生成ssh密钥对<br>ssh-keygen -t rsa -C “<a href="mailto:xxx@xxx.com" target="_blank" rel="noopener">xxx@xxx.com</a>“</p><br><p>接下来正常操作<br>在github上添加公钥public-key:<br>1、首先在你的终端运行 xclip -sel c ~/.ssh/id_rsa.pub将公钥内容复制到剪切板<br>2、在github上添加公钥时，直接复制即可<br>3、保存</p><br><br><br>测试：<br>在终端 ssh -T <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a></div>
-
-
-<p></p></div><p></p>
-<p></p><p>&nbsp;</p><p></p>
-<p></p><p>6、配置Deployment，在其文件夹中，找到_config.yml文件，修改repo值（在末尾）</p><p></p>
-<p></p><p>&nbsp;<img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021235812974-84318377.png" alt=""></p><p></p>
-<p></p><p>&nbsp;</p><p></p>
-<p></p><p>repo值是你在github项目里的ssh（右下角）</p><p></p>
-<p></p><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021235722365-818312042.png" alt=""></p><p></p>
-<p></p><p>&nbsp;</p><p></p>
-<p></p><p>7、新建一篇博客，在cmd执行命令：hexo new post “博客名”</p><p></p>
-<p></p><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171022000227834-1991784353.png" alt=""></p><p></p>
-<p></p><p>&nbsp;</p><p></p>
-<p></p><p>&nbsp;这时候在文件夹_posts目录下将会看到已经创建的文件</p><p></p>
-<p></p><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171022000508865-46787156.png" alt=""></p><p></p>
-<p></p><p>&nbsp;</p><p></p>
-<p></p><p>在生成以及部署文章之前，需要安装一个扩展：npm install hexo<span class="hljs-attribute">-deployer<span class="hljs-attribute">-git <span class="hljs-subst">–save</span></span></span></p><p></p>
-<p></p><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171022001237943-657272339.png" alt=""></p><p></p>
-<p></p><p>&nbsp;</p><p></p>
-<p></p><p>使用编辑器编好文章，那么就可以使用命令：hexo d -g，生成以及部署了</p><p></p>
-<p></p><p>&nbsp;<img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171022001410662-1611125904.png" alt=""></p><p></p>
-<p></p><p>&nbsp;</p><p></p>
-<p></p><p>部署成功后访问你的地址：http://用户名.github.io。那么将看到生成的文章</p><p></p>
-<p></p><p><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171022001738037-1195721153.png" alt=""></p><p></p>
-<p></p><p>&nbsp;</p><p></p>
-<p></p><p>&nbsp;好了，到此为止，最基本的也是最全面的hexo+github搭建博客完结。接下来是进阶的操作</p><p></p>
-<p></p><p>&nbsp;</p></div><div id="MySignature"></div><p></p>
-<div class="clear"></div><br><div id="blog_post_info_block"><br><div id="BlogPostCategory"></div><br><div id="EntryTag"></div><br><div id="blog_post_info"><div id="green_channel"><br>        <a href="javascript:void(0);" id="green_channel_digg" onclick="DiggIt(7707219,cb_blogId,1);green_channel_success(this,'谢谢推荐！');" target="_blank" rel="noopener">好文要顶</a><br>            <a id="green_channel_follow" onclick="follow('e3e1b854-9df5-e611-845c-ac853d9f53ac');" href="javascript:void(0);" target="_blank" rel="noopener">关注我</a><br>    <a id="green_channel_favorite" onclick="AddToWz(cb_entryId);return false;" href="javascript:void(0);" target="_blank" rel="noopener">收藏该文</a><br>    <a id="green_channel_weibo" href="javascript:void(0);" title="分享至新浪微博" onclick="ShareToTsina()" target="_blank" rel="noopener"><img src="//common.cnblogs.com/images/icon_weibo_24.png" alt=""></a><br>    <a id="green_channel_wechat" href="javascript:void(0);" title="分享至微信" onclick="shareOnWechat()" target="_blank" rel="noopener"><img src="//common.cnblogs.com/images/wechat.png" alt=""></a><br></div><br><div id="author_profile"><br>    <div id="author_profile_info" class="author_profile_info"><br>            <a href="http://home.cnblogs.com/u/fengxiongZz/" target="_blank"><img src="//pic.cnblogs.com/face/1108615/20171019160059.png" class="author_avatar" alt=""></a><br>        <div id="author_profile_detail" class="author_profile_info"><br>            <a href="http://home.cnblogs.com/u/fengxiongZz/" target="_blank" rel="noopener">Z皓</a><br><br>            <a href="http://home.cnblogs.com/u/fengxiongZz/followees" target="_blank" rel="noopener">关注 - 37</a><br><br>            <a href="http://home.cnblogs.com/u/fengxiongZz/followers" target="_blank" rel="noopener">粉丝 - 39</a><br>        </div><br>    </div><br>    <div class="clear"></div><br>    <div id="author_profile_honor"></div><br>    <div id="author_profile_follow"><br>                <a href="javascript:void(0);" onclick="follow('e3e1b854-9df5-e611-845c-ac853d9f53ac');return false;" target="_blank" rel="noopener">+加关注</a><br>    </div><br></div><br><div id="div_digg"><br>    <div class="diggit" onclick="votePost(7707219,'Digg')"><br>        <span class="diggnum" id="digg_count">5</span><br>    </div><br>    <div class="buryit" onclick="votePost(7707219,'Bury')"><br>        <span class="burynum" id="bury_count">0</span><br>    </div><br>    <div class="clear"></div><br>    <div class="diggword" id="digg_tips"><br>    </div><br></div><br><script type="text/javascript"><br>    currentDiggType = 0;<br></script></div><br><div class="clear"></div><br><div id="post_next_prev"><a href="http://www.cnblogs.com/fengxiongZz/p/7695232.html" class="p_n_p_prefix" target="_blank" rel="noopener">« </a> 上一篇：<a href="http://www.cnblogs.com/fengxiongZz/p/7695232.html" title="发布于2017-10-19 21:18" target="_blank" rel="noopener">CSS 3篇（持续更新）</a><br><a href="http://www.cnblogs.com/fengxiongZz/p/7707568.html" class="p_n_p_prefix" target="_blank" rel="noopener">» </a> 下一篇：<a href="http://www.cnblogs.com/fengxiongZz/p/7707568.html" title="发布于2017-10-22 17:26" target="_blank" rel="noopener">使用Hexo+Github一步步搭建属于自己的博客（进阶）</a><br></div><br></div>
-
-
-<pre><code>    &lt;/div&gt;
-    &lt;div class=&quot;postDesc&quot;&gt;posted @ &lt;span id=&quot;post-date&quot;&gt;2017-10-22 00:25&lt;/span&gt; &lt;a href=&quot;http://www.cnblogs.com/fengxiongZz/&quot;&gt;Z皓&lt;/a&gt; 阅读(&lt;span id=&quot;post_view_count&quot;&gt;30806&lt;/span&gt;) 评论(&lt;span id=&quot;post_comment_count&quot;&gt;12&lt;/span&gt;)  &lt;a href=&quot;https://i.cnblogs.com/EditPosts.aspx?postid=7707219&quot; rel=&quot;nofollow&quot;&gt;编辑&lt;/a&gt; &lt;a href=&quot;#&quot; onclick=&quot;AddToWz(7707219);return false;&quot;&gt;收藏&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-</code></pre></div></div>
-          
+                              使用Hexo+Github一步步搭建属于自己的博客（基础）                                    前言：电脑系统为window 10专业版，64位&nbsp;相关步骤：1、安装Node.js和配置好Node.js环境，打开cmd
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/06/28/hello-Hexo/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
     
     
     
-
+    <div>
+      
+    </div>
     
 
     
@@ -385,13 +425,13 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/28/posthello-Hexo/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
+      <meta itemprop="name" content="Malik">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/myavatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="Malik|个人博客">
     </span>
 
     
@@ -411,9 +451,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-06-28T09:47:00+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-28T09:47:00+08:00">
                 2018-06-28
               </time>
             
@@ -453,15 +493,24 @@
       
         
           
-            
           
+          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/06/28/posthello-Hexo/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
     
     
     
-
+    <div>
+      
+    </div>
     
 
     
@@ -504,13 +553,13 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/28/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
+      <meta itemprop="name" content="Malik">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/myavatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="Malik|个人博客">
     </span>
 
     
@@ -530,9 +579,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-06-28T08:57:53+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-28T08:57:53+08:00">
                 2018-06-28
               </time>
             
@@ -572,24 +621,24 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/06/28/hello-world/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
     
     
     
-
+    <div>
+      
+    </div>
     
 
     
@@ -651,8 +700,12 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">John Doe</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <img class="site-author-image" itemprop="image"
+                src="/images/myavatar.jpg"
+                alt="Malik" />
+            
+              <p class="site-author-name" itemprop="name">Malik</p>
+              <p class="site-description motion-element" itemprop="description">网站描述</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -663,7 +716,7 @@
                 <a href="/archives/">
               
                   <span class="site-state-item-count">3</span>
-                  <span class="site-state-item-name">posts</span>
+                  <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
@@ -675,7 +728,36 @@
           </nav>
 
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/settings/profile" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://plus.google.com/110418041221184819736" target="_blank" title="Google">
+                      
+                        <i class="fa fa-fw fa-google"></i>Google</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://blog.csdn.net/qq_34291777" target="_blank" title="CSDN">
+                      
+                        <i class="fa fa-fw fa-globe"></i>CSDN</a>
+                  </span>
+                
+            </div>
           
 
           
@@ -703,17 +785,28 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">Malik</span>
 
   
 </div>
 
+<div class="powered-by">
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
+  本站访客数:<span id="busuanzi_value_site_uv"></span>
+</span>
+</div>
 
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
@@ -721,7 +814,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
 
 
 
@@ -768,6 +861,8 @@
   
 
 
+  
+
 
 
 
@@ -808,6 +903,11 @@
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
 
   
 
@@ -820,6 +920,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
 
   
 
