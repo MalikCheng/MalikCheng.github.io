@@ -1096,7 +1096,10 @@ pre .javascript .function {
   position: relative;
 }
 .headband {
-  background: url("../image/index.jpg");
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://pic.taifua.com/cdn/common/index.jpg");
 }
 .site-meta {
   margin: 0;
@@ -2122,7 +2125,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cbffff;
+  background: #83ffcc;
 }
 .links-of-blogroll {
   font-size: 13px;
