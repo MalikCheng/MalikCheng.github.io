@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>https://blog.malik.pub/2018/06/28/makeHexo/</loc>
+    <lastmod>2018-07-05T03:48:42.408Z</lastmod>
+    <data>
+        <display>
+        <title>hexo+github搭建博客</title>
+        <pubTime>2018-06-28T01:49:09.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.malik.pub/2018/06/28/hello-Hexo/</loc>
+    <lastmod>2018-07-04T10:07:37.301Z</lastmod>
+    <data>
+        <display>
+        <title>Hello</title>
+        <pubTime>2018-06-28T01:49:09.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+    
+    
+    
+</urlset>
